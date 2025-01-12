@@ -1,0 +1,367 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f8f9;
+    color: #333;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Explore Section */
+.explore-section {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #d4f4e7;
+    padding: 60px 20px;
+   
+}
+
+.explore-text {
+    width: 50%;
+    text-align: left;
+}
+
+.explore-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.explore-section h2 {
+    margin: 20px 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.explore-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.explore-section .explore-image {
+    width: 20%;
+    text-align: right;
+}
+
+.explore-section .explore-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Vision Section */
+.vision-section .vision-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.vision-section .card1, .vision-section .card2, .vision-section .card3 {
+    width: 300px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vision-section .card1 {
+    background-color: #bacddd;
+}
+
+.vision-section .card2 {
+    background-color: rgb(180, 231, 180);
+}
+
+.vision-section .card3 {
+    background-color: rgb(233, 233, 181);
+}
+
+.vision-section .card h2 {
+    margin-bottom: 10px;
+    
+}
+
+.vision-section .card p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.vision-section .card1 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.vision-section .card2 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(75, 228, 75);
+    color: white;
+    cursor: pointer;
+}.vision-section .card3 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 96);
+    color: white;
+    cursor: pointer;
+}
+
+/* Recent News */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f8f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Explore Section */
+.explore-section {
+    background-color: #d4f4e7;
+    padding: 60px 20px;
+}
+
+.explore-section h2 {
+    margin: 20px 0;
+   
+    color: #333;
+}
+
+.explore-section img {
+    width: 150px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content :space-around;
+    
+}
+
+.explore-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+/* Vision Section */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #222;
+}
+
+.header p {
+    margin-top: 10px;
+    
+    color: #555;
+}
+
+/* News Card */
+.news-card {
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.news-image {
+    flex:  1%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    background-color: #eaeaea;
+    
+}
+
+.news-image img {
+    /* width:80%; */
+    height: auto; 
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+.news-content {
+    padding: 20px;
+    flex: 1;
+    
+}
+
+.news-content h2 {
+    
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.news-content .source {
+    
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.news-content .date {
+    
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.news-content p {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.read-more {
+    padding: 10px 20px;
+    background-color: #008037;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #005f29;
+}
+
+/* Donation Section */
+.donation-section .donation-options button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.donation-section .donation-options .selected {
+    background-color: #88d498;
+    color: white;
+}
+
+.donation-section input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donation-section .donate-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+/* Donation Section */
+.donation-section .donation-options button {
+    padding: 20px 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f1eeee;
+    
+}
+
+.donation-section .donation-options .selected {
+    background-color: #22b442;
+    color: white;
+}
+
+.donation-section input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donation-section .donate-btn {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
